@@ -1,0 +1,162 @@
+@media only screen and (max-width: 576px) {
+  * {
+    width: 100%;
+  }
+  /* ----------------- */
+  /* BANNER STYLE */
+  /* ----------------- */
+  #banner {
+    display: relative;
+    text-align: center;
+    width: 100vw;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/banner.jpg);
+    background-size: cover;
+  }
+
+  #banner {
+    display: relative;
+    text-align: center;
+    width: 100vw;
+    color: #fff;
+  }
+
+  /* ----------------- */
+  /* NAV BAR STYLE */
+  /* ----------------- */
+  #nav-bar {
+    padding-left: 2rem;
+  }
+
+  #nav-bar a {
+    color: black;
+  }
+
+  #nav-bar i {
+    color: #00bfff;
+  }
+
+  i {
+    color: #00bfff;
+  }
+
+  #nav-bar div {
+    text-transform: uppercase;
+  }
+
+  /* ---------------------------------- */
+  /* JOB, EXPERIENCES, PETSONALITIES */
+  /* -------------------------------- */
+  #personal-info {
+    margin-bottom: 4px;
+  }
+  button .btn {
+    display: inline-block;
+  }
+
+  .skillful-bar {
+    display: inline-block;
+    height: 2px;
+    width: 45px;
+    margin-right: 12px;
+  }
+
+  .job-info-heading i {
+    font-size: 32px;
+    color: #aaaaaa;
+  }
+
+  .btn-mobile {
+    color: #fff;
+    background-color: rgb(46, 46, 255);
+    padding: 4px 8px;
+    border-radius: 10%;
+  }
+
+  #hobby-icon {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 12px;
+  }
+
+  #hobby-icon i {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #2dcbff;
+    border-radius: 50%;
+    color: #2dcbff;
+    font-size: 24px;
+  }
+
+  /* ----------------- */
+  /* PROJECT STYLE */
+  /* ----------------- */
+  #project .row {
+    display: block;
+  }
+
+  #project .col {
+    padding-top: 4px;
+    border-top: 1px dashed black;
+  }
+
+  .btn-2021 {
+    padding: 4px 8px;
+    background-color: #2dcbff;
+    color: #fff;
+    border: none;
+    border-radius: 40%;
+  }
+
+  #project table {
+    border: 1px solid #494949;
+    border-collapse: collapse;
+    height: 220px;
+    justify-content: top;
+  }
+
+  td {
+    border: 1px solid #494949;
+    padding: 4px 8px;
+    vertical-align: top;
+  }
+
+  tr :nth-child(odd) {
+    width: 120px;
+    border-right: none;
+  }
+
+  tr :nth-child(even) {
+    border-left: none;
+  }
+
+  #footer li {
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+  }
+
+  /* ----------------- */
+  /* FOOTER STYLE */
+  /* ----------------- */
+  #footer i {
+    font-size: 32px;
+  }
+
+  #footer a:link,
+  a:visited {
+    text-decoration: none;
+    color: #494949;
+  }
+
+  #footer a {
+    display: none;
+  }
+}

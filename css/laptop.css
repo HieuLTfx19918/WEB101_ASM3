@@ -1,0 +1,272 @@
+@media only screen and (min-width: 768px) {
+  /* ----------------- */
+  /* BANNER STYLE */
+  /* ----------------- */
+  #banner {
+    display: relative;
+    text-align: center;
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/banner.jpg);
+    background-size: cover;
+  }
+
+  #banner div {
+    font-family: "open_sanslight";
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  /* ----------------- */
+  /* NAV BAR STYLE */
+  /* ----------------- */
+  #nav-bar .container {
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 50px;
+  }
+
+  #nav-bar nav {
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  }
+
+  #nav-bar img {
+    width: 30px;
+    height: 30px;
+    transform: scale(5);
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+  }
+
+  nav i {
+    color: #2dcbff;
+  }
+
+  /* ----------------------------------- */
+  /* TARGER & PERSONAL-INFO STYLE */
+  /* ----------------------------------- */
+  #target-info {
+    display: flex;
+    align-items: top;
+  }
+
+  #target > p,
+  li {
+    color: #494949;
+  }
+
+  #target,
+  #personal-info {
+    width: 50vw;
+    padding: 30px 80px;
+    line-height: 2;
+  }
+
+  #target {
+    background-color: #eaeaea;
+  }
+
+  #personal-info-icon {
+    padding: 0 24px;
+    color: #2dcbff;
+    align-items: center;
+  }
+
+  /* ---------------------------------- */
+  /* JOB, EXPERIENCES, PETSONALITIES */
+  /* -------------------------------- */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 12px;
+
+    /* padding: 64px 128px; */
+  }
+
+  .mt-20 {
+    margin: 12px;
+    line-height: 2;
+    padding: 24px;
+  }
+
+  #job-info li {
+    list-style: circle;
+    padding-left: 12px;
+    margin-bottom: 12px;
+  }
+
+  #job-info i {
+    font-size: 48px;
+    color: #aaaaaa;
+  }
+
+  .job-info-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 32px;
+  }
+
+  .btn-mobile {
+    display: none;
+  }
+
+  #hobby-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #hobby-icon i {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #2dcbff;
+    border-radius: 50%;
+    color: #2dcbff;
+    font-size: 24px;
+  }
+
+  #hobby-icon span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  button {
+    padding: 4px 8px;
+    background-color: #2dcbff;
+    color: #fff;
+    border: none;
+    border-radius: 15%;
+    font-style: italic;
+  }
+
+  .skillful-bar {
+    display: inline-block;
+    height: 2px;
+    width: 45px;
+    margin-right: 12px;
+  }
+
+  /* ---------------------------- */
+  /* CERITFICATES, AWARDS STYLE */
+  /* --------------------------- */
+  #certificate > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 24px;
+    margin: 24px 24px;
+  }
+
+  #certificate .section-title {
+    grid-column: 1 / -1;
+  }
+
+  #certificate img {
+    width: 90%;
+  }
+
+  /* ----------------- */
+  /* PROJECT STYLE */
+  /* ----------------- */
+  #project > .container {
+    width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 32px 0px;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  #project > .container * {
+    margin: 8px 0px;
+  }
+
+  #project img {
+    width: 100%;
+  }
+
+  #project h5 {
+    border-bottom: 1px solid #494949;
+    padding-left: 12px;
+  }
+
+  .time-place-role {
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-2021 {
+    padding: 4px 8px;
+    background-color: #2dcbff;
+    color: #fff;
+    border: none;
+    border-radius: 40%;
+  }
+
+  #project table {
+    border: 1px solid #494949;
+    border-collapse: collapse;
+    height: 40%;
+    justify-content: top;
+  }
+
+  td {
+    border: 1px solid #494949;
+    padding: 4px 8px;
+    vertical-align: top;
+  }
+
+  tr :nth-child(odd) {
+    border-right: none;
+  }
+
+  tr :nth-child(even) {
+    border-left: none;
+  }
+
+  /* ----------------- */
+  /* FOOTER STYLE */
+  /* ----------------- */
+  #footer > div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  #footer li {
+    padding: 0 32px;
+    font-size: 24px;
+    display: inline-block;
+  }
+
+  #footer i {
+    color: #2dcbff;
+    font-size: 32px;
+  }
+
+  #footer a:link,
+  a:visited {
+    text-decoration: none;
+    color: #494949;
+  }
+}
